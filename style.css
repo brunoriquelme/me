@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+* {
+  font-size: 1.03em;
+  font-family: Poppins, sans-serif;
+  border: 2;
+  margin: 2;
+}
+body{
+  background-image: linear-gradient(-25deg, #FF42F9 1%, #D565FF 50%, #8865FF);
+  background-attachment: fixed;
+  
+  display: flex;
+  justify-content: center;
+}
+/*fadeInUp*/
+#main{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  animation: fadeIn;
+  animation-duration: 2.5s;
+}
+#boxl1{
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #8E17FF;
+  width: 330px;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 1.5em;
+}
+#createdby{
+  margin-bottom: -5px;
+  font-size: 0.5em;
+}
+#ftperfil{
+  border-radius: 100%;
+  width: 190px;
+  box-shadow: 0px 0px 25px #8F8D90;
+  
+  animation: bounceInDown;
+  animation-duration: 1s;
+}
+#gifcat{
+  width: 150px;
+  border-radius: 100%;
+}
+.midia{
+  width: 40px;
+}
